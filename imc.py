@@ -1,0 +1,6 @@
+nome = input("qual o seu nome? ")
+print("olá, " + nome)
+altura = float(input("qual a sua altura? "))
+peso = int(input("qual o seu peso? "))
+imc = peso / (altura**2)
+print("o seu imc é: " + str(imc))       
